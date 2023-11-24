@@ -1,0 +1,470 @@
+/* ______________________________________________________________Google Fonts______________________________________________________________ */
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+/* _______________________________________________________________Formatação_______________________________________________________________ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+section {
+    width: 100%;
+}
+/* _________________________________________________________________Header_________________________________________________________________ */
+.header{
+    min-height: 4.6875rem;
+    width: 100%;
+    display: flex;
+    background-image: url(../imagens/fundo\ 2.jpg);
+    align-items: center;  
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.titulo__Header{
+    font-size: 1.875rem;
+    font-family: 'Stick No Bills', sans-serif;
+    letter-spacing: 2px; 
+    color: white; 
+}
+
+.div__titulo__Header{
+    width: 50%;
+    padding-left: 2.5%;
+}
+
+
+.div__menu__Header{
+    padding-left: 3.5%;
+    width: 46.5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu__Header{
+    text-decoration: none;
+    border: 0.0625rem white solid;
+    padding: 0.3125rem 0.625rem;
+    font-size: 1.0625rem;
+    background-color: black;
+    color: white;
+}
+
+a:hover{
+    color: black;
+    background-image: url(../imagens/link.jpg);
+    border: 1px solid black;
+}
+
+
+/* ______________________________________________________________Containers_________________________________________________________________ */
+.container{
+    width: 100%;
+    height: 3.5rem;
+    background-image: url(../imagens/fundo.jpg); 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container__Generico{
+    padding: 3.125rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.container__imagens__Robo__1{
+    width: 100%;
+    min-height: 18.75rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__imagens__Robo__2{
+    width: 100%;
+    min-height: 18.75rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__imagens__Robo__3{
+    width: 100%;
+    min-height: 18.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container__Hardware{
+    width: 100%;
+    height: auto;
+    padding: 0rem 0.625rem 0.625rem 0.625rem;
+    display: flex;
+}
+.container__Formulario{
+    width: 100%;
+    height: auto;
+    border: 0.0625rem solid black;
+}
+.container__div__Hardware{
+    padding: 0.625rem;
+    width: 25%;
+    min-height: 31.25rem; 
+    justify-content: center;
+    margin: 0.3125rem 0.15625rem;
+    flex-wrap: wrap;
+    background-image: url(../imagens/fundo\ 0.jpg);
+}
+
+/* ________________________________________________________________Imagens_________________________________________________________________ */
+
+.imagem__Robo__1{
+    width: 23.5%;
+    height: 85%;
+    margin: 0rem 0.328125rem 0.328125rem 0.328125rem;
+    border: 0.09375rem solid black;
+}
+
+.imagem__Robo__2{
+    width: 23.5%;
+    height: 85%;
+    margin: 0rem 0.328125rem 0.328125rem 0.328125rem;
+    border: 0.09375rem solid black;
+}
+
+.imagem__arma{
+    width: 40%;
+    height: 95%;
+    margin: 0px 5%;
+}
+
+.imagem__Hardware{
+    width: 100%;
+    height: 18.75rem;
+}
+
+
+/* ____________________________________________________________Titulos e Afins_____________________________________________________________ */
+.titulo__Padrão{
+    font-size: 1.875rem;
+    flex-wrap: nowrap;
+    font-family: 'Stick No Bills', sans-serif;
+    letter-spacing: 0.125rem;
+    color: rgb(255, 255, 255);
+}
+
+.paragrafo__Padrão{
+    text-align: justify;
+    font-size: 1.15625rem;
+    letter-spacing: 0.0625rem;
+    line-height: 1,5625rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+}
+.titulo__Hardware{
+    display: flex;
+    margin-top: 0.3125rem;
+    justify-content:center;
+    font-size: 1.5625rem;
+    font-family: 'Stick No Bills', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.paragrafo__Hardware{
+    margin: 0.625rem 0.9375rem;
+    text-align: justify;
+    font-size: 1.15625rem;
+    letter-spacing: 0.0625rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab', serif;
+}
+
+/* ________________________________________________________________________________________________________________________________________ */
+
+.espaço{
+    margin-bottom: 3.125rem;
+}
+
+
+/* _______________________________________________________________Formulário_______________________________________________________________ */
+fieldset{
+    margin: 0.9375rem;
+    border: 0rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea{
+    width: 100%;
+    font-size: 1.15625rem;
+    letter-spacing: 0.0625rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 1000;
+    padding: 0.625rem 0rem 0.625rem 2.8125rem;
+    border-radius: 0.4375rem;
+    border: 0.0625rem solid rgb(167, 167, 167);
+    background-repeat: no-repeat;
+    background-position: 0.625rem center ;
+}
+
+.nome{
+    background-image: url(../imagens/Icon1.1.png);
+}
+
+.sobrenome{
+    background-image: url(../imagens/icon2.1.png);
+}
+.email{
+    background-image: url(../imagens/icon3.1.png);
+}
+
+.celular{
+    background-image: url(../imagens/icon4.1.png);
+}
+
+button[type="submit"]{
+    width: 6.25rem;
+    padding: 0.625rem;
+    border-radius: 0.4375rem;
+    border: 0.0625rem solid rgb(167, 167, 167);
+    float: right;
+}
+
+button[type="submit"]:hover{
+    color: rgb(255, 255, 255);
+    background-image: url(../imagens/fundo\ 2.jpg);
+    border: 0.0625rem solid rgb(0, 0, 0);
+}
+
+textarea{
+    resize: none;
+    padding: 0.625rem 0rem 0rem 0.625rem;
+}
+
+
+@media(max-width:1091px) {
+    .header {
+        min-height: 8rem;
+    }
+
+    .div__menu__Header {
+        display:flexbox;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+        min-width: 70%;
+        margin-right: 20px;
+    }
+
+    .menu__Header {
+        margin: 10px;
+    }
+
+    .container__imagens__Robo__1 {
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .imagem__Robo__1 {
+        width: 47%;
+        max-height: 50%;
+        margin: 10px;
+    }
+
+    .container__imagens__Robo__2 {
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .imagem__arma{
+        width: 100%;
+        height: 50%;
+        margin-bottom: 20px;
+    }
+
+    .container__Hardware {
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .container__div__Hardware {
+        width: 45%;
+        min-height: 70vh;
+    }
+
+    .container__imagens__Robo__3{
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .imagem__Robo__2{
+        width: 48%;
+        max-height: 45%;
+    }
+
+}
+
+@media(max-width:773px) {
+
+    .container__div__Hardware {
+        width: 49%;
+        min-height: 75vh;
+        height: auto;
+    }
+
+    .imagem__Robo__1{
+        width: 45%;
+        max-height: 45%;
+    }
+
+    .imagem__Robo__2{
+        width: 47%;
+        max-height: 45%;
+    }
+    
+    .imagem__arma{
+        width: 120%;
+        height: 50%;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media(max-width:695px) {
+
+    .container__div__Hardware {
+        width: 49%;
+        min-height: 90vh;
+        height: auto;
+    }
+    
+    .imagem__Robo__1{
+        width: 45%;
+        max-height: 45%;
+    }
+
+    .imagem__Robo__2{
+        width: 47%;
+        max-height: 45%;
+    }
+    
+}
+
+
+@media(max-width:530px) {
+  
+
+    .container__imagens__Robo__1 {
+        height: 100%;
+    }
+
+    .imagem__Robo__1 {
+        width: 100%;
+        height: 50vh;
+    }    
+
+    .container__div__Hardware {
+        width: 80%;
+        min-height: 70vh;
+    }
+
+    .container__imagens__Robo__3 {
+        height: 100%;
+    } 
+
+    .imagem__Robo__2{
+        width: 100%;
+        min-height: 50vh;
+        margin: 10px;
+    }
+
+}
+
+@media(max-width:468px){
+    .header {
+        min-height: 10rem;
+    }
+
+    .div__menu__Header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-width: 100%;
+    }
+
+    .div__titulo__Header {
+        padding-left: 10%;
+        margin-top: 1vh;
+     }
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:390px){
+    .header {
+        min-height: 10rem;
+    }
+
+    .div__menu__Header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-width: 100%;
+    }
+
+    .div__titulo__Header {
+       padding-left: 10%;
+       margin-top: 1vh;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container__div__Hardware {
+        width: 95%;
+        min-height: 75vh;
+        height: auto;
+    }
+
+    .imagem__Robo__1{
+        width: 130%;
+        max-height: 100%;
+    }
+
+    .imagem__Robo__2{
+        width: 125%;
+        max-height: 45%;
+    }
+    
+    .imagem__arma{
+        width: 150%;
+        height: 50%;
+        max-height: 100%;
+        margin-bottom: 20px;
+    }
+}
